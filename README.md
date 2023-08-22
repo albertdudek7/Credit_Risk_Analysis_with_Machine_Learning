@@ -16,12 +16,16 @@ Overview of the Analysis
 4. Describe the stages of the machine learning process you went through as part of this analysis.
   The stages of the machine learning process were split into:
   (1) Read the csv data into a Pandas DataFrame.
+
   (2) Create lavels sets y (loan_status) and create features X DataFrame from the remaining columns. 
+  
   (3) Split the data into training and testing sets using train_test_split.
+  
   (4) Fit a logistic regression model by using the training data and save predictions for the testing data labels and the fitted model.
+  
   (5) Test and Evaluate the model's performance by generating a confusion matrix and printing the classification report. 
 
-5. Briefly touch on any methods you used (e.g., LogisticRegression, or any resampling method).
+6. Briefly touch on any methods you used (e.g., LogisticRegression, or any resampling method).
 - A logistic regression model was fit using the training data. The predictions for the testing data lavels were saved by using the testing feature data and the fitted model.
 
 Results
