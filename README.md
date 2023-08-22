@@ -1,32 +1,41 @@
 # credit-risk-classification
 
-The following in-class activities helped with structuring the code: logistic_regression_solution, random_forest_solution, decision_trees_solution
-
-
 Overview of the Analysis
-In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
+1. Purpose of Analysis
+- The purpose of this analysis was to build a model that will help predict and identify the credit risk classification of a loan from peer-to-peer lending services.
+  
+2. Loan Classifications
+- The two classifications for loans were either healthy(0) or high-risk loans(1).
+  
+3. Financial Information provided
+- The following financial information was provided to aid in the predictions: loan size, interest rate, borrower income, debt to income, number of accounts, derogatory marks, total debt and loan status. 
+- The financial information factored into assessing whether a loan is healthy or a high-risk loan based on those factors. Simply, the probability that the loan would be paid in full and on-time. In other words, the creditworthiness of borrowers.
+- The vraibles that I was trying to predict (value_counts) was whether a loan is healthy(0) or a high-risk loan(1). 
 
-Explain the purpose of the analysis.
-Explain what financial information the data was on, and what you needed to predict.
-Provide basic information about the variables you were trying to predict (e.g., value_counts).
-Describe the stages of the machine learning process you went through as part of this analysis.
-Briefly touch on any methods you used (e.g., LogisticRegression, or any resampling method).
+
+4. Describe the stages of the machine learning process you went through as part of this analysis.
+  The stages of the machine learning process were split into:
+  (1) Read the csv data into a Pandas DataFrame.
+  (2) Create lavels sets y (loan_status) and create features X DataFrame from the remaining columns. 
+  (3) Split the data into training and testing sets using train_test_split.
+  (4) Fit a logistic regression model by using the training data and save predictions for the testing data labels and the fitted model.
+  (5) Test and Evaluate the model's performance by generating a confusion matrix and printing the classification report. 
+
+5. Briefly touch on any methods you used (e.g., LogisticRegression, or any resampling method).
+- A logistic regression model was fit using the training data. The predictions for the testing data lavels were saved by using the testing feature data and the fitted model.
+
 Results
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
 Machine Learning Model 1:
 
 Description of Model 1 Accuracy, Precision, and Recall scores.
-Machine Learning Model 2:
 
-Description of Model 2 Accuracy, Precision, and Recall scores.
-Summary
-Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 
-Which one seems to perform best? How do you know it performs best?
-Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the 1's, or predict the 0's? )
-If you do not recommend any of the models, please justify your reasoning.
 
+
+
+The following in-class activities helped with structuring the code: logistic_regression_solution, random_forest_solution, decision_trees_solution
 
 Instructions
 The instructions for this Challenge are divided into the following subsections:
