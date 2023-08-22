@@ -1,4 +1,6 @@
 # credit-risk-classification
+
+The following in-class activities helped with structuring the code: logistic_regression_solution, random_forest_solution, decision_trees_solution
 Instructions
 The instructions for this Challenge are divided into the following subsections:
 
