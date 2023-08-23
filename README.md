@@ -33,9 +33,14 @@ Overview of the Analysis
 Results
 Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all machine learning models.
 
+- The balanced accuracy score was 95.2%. Balanced accuracy score is the arithmetic mean of sensitivity and specificity. Balanced accuracy score evaluates the performance of classification in the presence of imbalanced data. It takes into account both recall and true negative rate. The prediction of balanced accuracy was 95.2% accurate.
+- The precision score was 92%. It measures the proportion of positively predicted labels that are accurately correct. Precision score is also known as the positive predictive value.
+- The recall score was 95%. Recall is the ability to classify all of the positive samples. It quantifies the number of positive class preidctions made out of all positive examples in the dataset. 
+
 Machine Learning Model 1:
 
-Description of Model 1 Accuracy, Precision, and Recall scores.
+Summary:
+- I would recommend the use of this model to predict the creditworthiness of borrowers due to the high accuracy score of 95%. It is a reliable score to predict the repayment of the intial loan. The financial data provided was sufficient and the accuracy score can be used by lenders in their business risk profile to gain profit and maintain a healthy business model. 
 
 
 
