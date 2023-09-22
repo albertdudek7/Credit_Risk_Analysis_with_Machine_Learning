@@ -18,12 +18,21 @@ Overview of the Analysis
   The stages of the machine learning process were split into:
 
   (1) Read the csv data into a Pandas DataFrame.
+  
+![image](https://github.com/albertdudek7/Credit_Risk_Analysis_with_Machine_Learning/assets/127783844/abc26330-90f6-4e7f-b4f9-4f6c314502e7)
+
 
   (2) Create lavels sets y (loan_status) and create features X DataFrame from the remaining columns. 
   
   (3) Split the data into training and testing sets using train_test_split.
+
+![image](https://github.com/albertdudek7/Credit_Risk_Analysis_with_Machine_Learning/assets/127783844/0dfe0121-fd62-4b67-8cd1-0bfe9a55a7c5)
+
   
   (4) Fit a logistic regression model by using the training data and save predictions for the testing data labels and the fitted model.
+
+ ![image](https://github.com/albertdudek7/Credit_Risk_Analysis_with_Machine_Learning/assets/127783844/b7daab4b-046f-4dd1-8d0f-8df18c8fed57)
+
   
   (5) Test and Evaluate the model's performance by generating a confusion matrix and printing the classification report. 
 
