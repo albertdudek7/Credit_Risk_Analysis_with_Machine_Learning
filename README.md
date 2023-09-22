@@ -1,4 +1,4 @@
-# credit-risk-classification
+# Credit Risk Analysis with Logistic Regression Model
 
 Overview of the Analysis
 1. Purpose of Analysis
